@@ -1,0 +1,96 @@
+body{
+        margin: 0;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Montserrat Alternates', sans-serif;
+        background-color: #F0F8FF;
+      }
+      
+h1{
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: bold;
+      }
+      
+      .header{
+        height: 300px;
+        /*background-image: url('assets/img/car.jpg');*/
+        background-color: #4169E1;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        padding: 1px 0 0 0;
+        color: #ffffff;
+        /*font-size: 20px;*/
+        /*box-shadow: 0 0 50px 50px #4169E1;*/
+        text-align: center;
+        
+       
+      }
+      
+      .container{
+        min-height: 100px;
+        /*background-color: silver;*/
+        width: 94%;
+        margin-top: -150px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        color: #1E90FF;
+        font-weight: bold
+     
+      }
+     
+      .pencarian{
+        width: 98%;
+        min-height: 10px;
+        /*background-color: green;*/
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      
+      .input-search{
+        padding: 15px;
+        border: 3px solid #F0F8FF;
+        /*border-radius: 10px;*/
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        width: 94%;
+        font-size: 15px;
+        box-shadow: 0 0 5px 0 #F0F8FF;
+        background-color: #ffffff;
+      }
+      
+      .news3{
+        
+        width: 100%;
+        height: 650px;
+        background-color: #ffffff;
+        margin-bottom: 7px;
+        text-align: center;
+        display: inherit;
+        overflow: auto;
+        font-size: 5px;
+        border-radius: 5px;
+        color: white;
+        box-shadow: 0 0 5px 0 #4169E1;
+      }
+      .news3-item{
+        width: 180px;
+        height: 180px;
+        background-color: 0 0 10px 10px #00BFFF;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin: 13px;
+        float: left;
+        color: black;
+        font-weight: Bold;
+        font-size: 12px;
+        padding: 5px;
+        border-radius: 50px;
+        text-align: center;
+        /*border: 0 solid  #ffffff;*/
+       /* font-size: 13px; */
+        flex-shrink: 0;
+        /*box-shadow: 0 0 1px 1px #1E90FF;*/
+      }
